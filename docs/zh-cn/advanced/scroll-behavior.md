@@ -8,7 +8,8 @@
 
 ``` js
 const router = new VueRouter({
-  routes: [...],
+  mode：'history',
+  routes: [...],
   scrollBehavior (to, from, savedPosition) {
     // return 期望滚动到哪个的位置
   }
